@@ -1,0 +1,2023 @@
+
+body{
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.demo a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: white;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  
+  
+  
+  #section06 a {
+    padding-top: 90px;
+  }
+  #section06 a span {
+    position: absolute;
+    top:250px;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    -webkit-animation: sdb06 1.5s infinite;
+    animation: sdb06 1.5s infinite;
+    box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb06 {
+    0% {
+      -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+  @keyframes sdb06 {
+    0% {
+      transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+      opacity: 0;
+    }
+  }
+
+  .cem{
+    font-size:115px;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  .glad{
+    font-size:25px;
+   width: 39%;
+    margin: 0 auto;
+    color: white;
+  }
+
+  html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+#about {
+    position: absolute;
+    top: 250%;
+    margin: 0 auto;
+    padding-top: 45%;
+    
+}
+#projects{
+    position: absolute;
+    top: 600%;
+    margin: 0 auto;
+    padding-top: 35%;
+    text-align: left;
+   
+    
+}
+
+
+
+
+
+
+  #contact{
+    position: absolute;
+    top: 1050%;
+    margin: 0 auto;
+    padding-bottom: 45%;
+    
+  
+  }
+@media (min-width: 360px) {
+
+header{
+    scale: 0.7;
+    font-size: 5px;
+    width: 375px;
+}
+
+.nav-link{
+    
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+    .demo a {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        z-index: 2;
+        display: inline-block;
+        -webkit-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        color: white;
+        font : normal 400 20px/1 'Josefin Sans', sans-serif;
+        letter-spacing: .1em;
+        text-decoration: none;
+        transition: opacity .3s;
+      }
+      .demo a:hover {
+        opacity: .5;
+      }
+      
+      
+      
+      #section06 a {
+        padding-top: 90px;
+      }
+      #section06 a span {
+        position: absolute;
+        top:250px;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid white;
+        border-bottom: 1px solid white;
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        -webkit-animation: sdb06 1.5s infinite;
+        animation: sdb06 1.5s infinite;
+        box-sizing: border-box;
+      }
+      @-webkit-keyframes sdb06 {
+        0% {
+          -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+          opacity: 0;
+        }
+      }
+      @keyframes sdb06 {
+        0% {
+          transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+          opacity: 0;
+        }
+      }
+    
+      .cem{
+        font-size:115px;
+        width: 65%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+      }
+      .glad{
+        font-size:25px;
+       width: 100%;
+        margin: 0 auto;
+        color: white;
+      }
+    
+      html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    
+    
+    #about {
+        position: absolute;
+        top: 110%;
+        margin: 0 auto;
+        padding-top: 45%;
+        
+    }
+    #projects{
+        position: absolute;
+        top: 270%;
+        margin: 0 auto;
+        padding-top: 35%;
+        text-align: left;
+       
+        
+    }
+    
+    
+    
+    
+    
+    
+      #contact{
+        position: absolute;
+        top: 460%;
+        margin: 0 auto;
+       
+        
+      
+      }
+
+      footer{
+        position: absolute;
+        top: 340%;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+      }
+  
+    }
+
+@media (min-width: 375px) {
+
+        header{
+            scale: 0.7;
+            font-size: 5px;
+            width: 375px;
+        }
+        
+        .nav-link{
+            
+            padding-left: 0;
+            padding-right: 25px;
+        }
+        
+            .demo a {
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                z-index: 2;
+                display: inline-block;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                color: white;
+                font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                letter-spacing: .1em;
+                text-decoration: none;
+                transition: opacity .3s;
+              }
+              .demo a:hover {
+                opacity: .5;
+              }
+              
+              
+              
+              #section06 a {
+                padding-top: 90px;
+              }
+              #section06 a span {
+                position: absolute;
+                top:250px;
+                left: 50%;
+                width: 24px;
+                height: 24px;
+                margin-left: -12px;
+                border-left: 1px solid white;
+                border-bottom: 1px solid white;
+                -webkit-transform: rotateZ(-45deg);
+                transform: rotateZ(-45deg);
+                -webkit-animation: sdb06 1.5s infinite;
+                animation: sdb06 1.5s infinite;
+                box-sizing: border-box;
+              }
+              @-webkit-keyframes sdb06 {
+                0% {
+                  -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                  opacity: 0;
+                }
+                50% {
+                  opacity: 1;
+                }
+                100% {
+                  -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                  opacity: 0;
+                }
+              }
+              @keyframes sdb06 {
+                0% {
+                  transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                  opacity: 0;
+                }
+                50% {
+                  opacity: 1;
+                }
+                100% {
+                  transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                  opacity: 0;
+                }
+              }
+            
+              .cem{
+                font-size:115px;
+                width: 65%;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+              }
+              .glad{
+                font-size:25px;
+               width: 100%;
+                margin: 0 auto;
+                color: white;
+              }
+            
+              html {
+                height: 100%;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            
+            
+            
+            #about {
+                position: absolute;
+                top: 110%;
+                margin: 0 auto;
+                padding-top: 45%;
+                
+            }
+            #projects{
+                position: absolute;
+                top: 270%;
+                margin: 0 auto;
+                padding-top: 35%;
+                text-align: left;
+               
+                
+            }
+            
+            
+            
+            
+            
+            
+              #contact{
+                position: absolute;
+                top: 460%;
+                margin: 0 auto;
+               
+                
+              
+              }
+        
+              footer{
+                position: absolute;
+                top: 360%;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+              }
+          
+            }
+  
+ 
+@media (min-width: 412px) {
+
+                header{
+                    scale: 0.7;
+                    font-size: 5px;
+                    width: 375px;
+                }
+                
+                .nav-link{
+                    
+                    padding-left: 0;
+                    padding-right: 25px;
+                }
+                
+                    .demo a {
+                        position: absolute;
+                        bottom: 20px;
+                        left: 50%;
+                        z-index: 2;
+                        display: inline-block;
+                        -webkit-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                        color: white;
+                        font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                        letter-spacing: .1em;
+                        text-decoration: none;
+                        transition: opacity .3s;
+                      }
+                      .demo a:hover {
+                        opacity: .5;
+                      }
+                      
+                      
+                      
+                      #section06 a {
+                        padding-top: 90px;
+                      }
+                      #section06 a span {
+                        position: absolute;
+                        top:250px;
+                        left: 50%;
+                        width: 24px;
+                        height: 24px;
+                        margin-left: -12px;
+                        border-left: 1px solid white;
+                        border-bottom: 1px solid white;
+                        -webkit-transform: rotateZ(-45deg);
+                        transform: rotateZ(-45deg);
+                        -webkit-animation: sdb06 1.5s infinite;
+                        animation: sdb06 1.5s infinite;
+                        box-sizing: border-box;
+                      }
+                      @-webkit-keyframes sdb06 {
+                        0% {
+                          -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                          opacity: 0;
+                        }
+                        50% {
+                          opacity: 1;
+                        }
+                        100% {
+                          -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                          opacity: 0;
+                        }
+                      }
+                      @keyframes sdb06 {
+                        0% {
+                          transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                          opacity: 0;
+                        }
+                        50% {
+                          opacity: 1;
+                        }
+                        100% {
+                          transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                          opacity: 0;
+                        }
+                      }
+                    
+                      .cem{
+                        font-size:115px;
+                        width: 65%;
+                        margin: 0 auto;
+                        text-align: center;
+                        color: white;
+                      }
+                      .glad{
+                        font-size:25px;
+                       width: 100%;
+                        margin: 0 auto;
+                        color: white;
+                      }
+                    
+                      html {
+                        height: 100%;
+                    }
+                    
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                    }
+                    
+                    
+                    
+                    #about {
+                        position: absolute;
+                        top: 120%;
+                        margin: 0 auto;
+                        padding-top: 45%;
+                        
+                    }
+                    #projects{
+                        position: absolute;
+                        top: 315%;
+                        margin: 0 auto;
+                        padding-top: 35%;
+                        text-align: left;
+                       
+                        
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                      #contact{
+                        position: absolute;
+                        top: 540%;
+                        margin: 0 auto;
+                       
+                        
+                      
+                      }
+                
+                      footer{
+                        position: absolute;
+                        top: 320%;
+                        margin: 0 auto;
+                        width: 100%;
+                        text-align: center;
+                      }
+                  
+                    }
+@media (min-width: 390px) {
+
+                        header{
+                            scale: 0.7;
+                            font-size: 5px;
+                            width: 375px;
+                        }
+                        
+                        .nav-link{
+                            
+                            padding-left: 0;
+                            padding-right: 25px;
+                        }
+                        
+                            .demo a {
+                                position: absolute;
+                                bottom: 20px;
+                                left: 50%;
+                                z-index: 2;
+                                display: inline-block;
+                                -webkit-transform: translate(0, -50%);
+                                transform: translate(0, -50%);
+                                color: white;
+                                font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                                letter-spacing: .1em;
+                                text-decoration: none;
+                                transition: opacity .3s;
+                              }
+                              .demo a:hover {
+                                opacity: .5;
+                              }
+                              
+                              
+                              
+                              #section06 a {
+                                padding-top: 90px;
+                              }
+                              #section06 a span {
+                                position: absolute;
+                                top:250px;
+                                left: 50%;
+                                width: 24px;
+                                height: 24px;
+                                margin-left: -12px;
+                                border-left: 1px solid white;
+                                border-bottom: 1px solid white;
+                                -webkit-transform: rotateZ(-45deg);
+                                transform: rotateZ(-45deg);
+                                -webkit-animation: sdb06 1.5s infinite;
+                                animation: sdb06 1.5s infinite;
+                                box-sizing: border-box;
+                              }
+                              @-webkit-keyframes sdb06 {
+                                0% {
+                                  -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                  opacity: 0;
+                                }
+                                50% {
+                                  opacity: 1;
+                                }
+                                100% {
+                                  -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                  opacity: 0;
+                                }
+                              }
+                              @keyframes sdb06 {
+                                0% {
+                                  transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                  opacity: 0;
+                                }
+                                50% {
+                                  opacity: 1;
+                                }
+                                100% {
+                                  transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                  opacity: 0;
+                                }
+                              }
+                            
+                              .cem{
+                                font-size:115px;
+                                width: 65%;
+                                margin: 0 auto;
+                                text-align: center;
+                                color: white;
+                              }
+                              .glad{
+                                font-size:25px;
+                               width: 100%;
+                                margin: 0 auto;
+                                color: white;
+                              }
+                            
+                              html {
+                                height: 100%;
+                            }
+                            
+                            body {
+                                margin: 0;
+                                padding: 0;
+                                height: 100%;
+                            }
+                            
+                            
+                            
+                            #about {
+                                position: absolute;
+                                top: 120%;
+                                margin: 0 auto;
+                                padding-top: 45%;
+                                
+                            }
+                            #projects{
+                                position: absolute;
+                                top: 315%;
+                                margin: 0 auto;
+                                padding-top: 35%;
+                                text-align: left;
+                               
+                                
+                            }
+                            
+                            
+                            
+                            
+                            
+                            
+                              #contact{
+                                position: absolute;
+                                top: 540%;
+                                margin: 0 auto;
+                               
+                                
+                              
+                              }
+                        
+                              footer{
+                                position: absolute;
+                                top: 330%;
+                                margin: 0 auto;
+                                width: 100%;
+                                text-align: center;
+                              }
+                          
+                            }
+@media (min-width: 820px) {
+
+                                header{
+                                    scale: 0.7;
+                                    font-size: 5px;
+                                    width: 375px;
+                                }
+                                
+                                .nav-link{
+                                    
+                                    padding-left: 0;
+                                    padding-right: 25px;
+                                }
+                                
+                                    .demo a {
+                                        position: absolute;
+                                        bottom: 20px;
+                                        left: 50%;
+                                        z-index: 2;
+                                        display: inline-block;
+                                        -webkit-transform: translate(0, -50%);
+                                        transform: translate(0, -50%);
+                                        color: white;
+                                        font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                                        letter-spacing: .1em;
+                                        text-decoration: none;
+                                        transition: opacity .3s;
+                                      }
+                                      .demo a:hover {
+                                        opacity: .5;
+                                      }
+                                      
+                                      
+                                      
+                                      #section06 a {
+                                        padding-top: 90px;
+                                      }
+                                      #section06 a span {
+                                        position: absolute;
+                                        top:250px;
+                                        left: 50%;
+                                        width: 24px;
+                                        height: 24px;
+                                        margin-left: -12px;
+                                        border-left: 1px solid white;
+                                        border-bottom: 1px solid white;
+                                        -webkit-transform: rotateZ(-45deg);
+                                        transform: rotateZ(-45deg);
+                                        -webkit-animation: sdb06 1.5s infinite;
+                                        animation: sdb06 1.5s infinite;
+                                        box-sizing: border-box;
+                                      }
+                                      @-webkit-keyframes sdb06 {
+                                        0% {
+                                          -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                          opacity: 0;
+                                        }
+                                        50% {
+                                          opacity: 1;
+                                        }
+                                        100% {
+                                          -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                          opacity: 0;
+                                        }
+                                      }
+                                      @keyframes sdb06 {
+                                        0% {
+                                          transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                          opacity: 0;
+                                        }
+                                        50% {
+                                          opacity: 1;
+                                        }
+                                        100% {
+                                          transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                          opacity: 0;
+                                        }
+                                      }
+                                    
+                                      .cem{
+                                        font-size:115px;
+                                        width: 65%;
+                                        margin: 0 auto;
+                                        text-align: center;
+                                        color: white;
+                                      }
+                                      .glad{
+                                        font-size:25px;
+                                       width: 100%;
+                                        margin: 0 auto;
+                                        color: white;
+                                      }
+                                    
+                                      html {
+                                        height: 100%;
+                                    }
+                                    
+                                    body {
+                                        margin: 0;
+                                        padding: 0;
+                                        height: 100%;
+                                    }
+                                    
+                                    
+                                    
+                                    #about {
+                                        position: absolute;
+                                        top: 122%;
+                                        margin: 0 auto;
+                                        padding-top: 45%;
+                                        
+                                    }
+                                    #projects{
+                                        position: absolute;
+                                        top: 318%;
+                                        margin: 0 auto;
+                                        padding-top: 35%;
+                                        text-align: left;
+                                       
+                                        
+                                    }
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                      #contact{
+                                        position: absolute;
+                                        top: 548%;
+                                        margin: 0 auto;
+                                       
+                                        
+                                      
+                                      }
+                                
+                                      footer{
+                                        position: absolute;
+                                        top: 320%;
+                                        margin: 0 auto;
+                                        width: 100%;
+                                        text-align: center;
+                                      }
+                                  
+                                    }
+@media (min-width: 768px) {
+
+                                        header{
+ scale: 1;
+ font-size: 5px;
+ width: 820px;
+                                        }
+                                        
+                                        .nav-link{
+ 
+ padding-left: 0;
+ padding-right: 25px;
+                                        }
+                                        
+ .demo a {
+ position: absolute;
+ bottom: 20px;
+ left: 50%;
+ z-index: 2;
+ display: inline-block;
+ -webkit-transform: translate(0, -50%);
+ transform: translate(0, -50%);
+ color: white;
+ font : normal 400 20px/1 'Josefin Sans', sans-serif;
+ letter-spacing: .1em;
+ text-decoration: none;
+ transition: opacity .3s;
+ }
+ .demo a:hover {
+ opacity: .5;
+ }
+ 
+ 
+ 
+ #section06 a {
+ padding-top: 90px;
+ }
+ #section06 a span {
+ position: absolute;
+ top:250px;
+ left: 50%;
+ width: 24px;
+ height: 24px;
+ margin-left: -12px;
+ border-left: 1px solid white;
+ border-bottom: 1px solid white;
+ -webkit-transform: rotateZ(-45deg);
+ transform: rotateZ(-45deg);
+ -webkit-animation: sdb06 1.5s infinite;
+ animation: sdb06 1.5s infinite;
+ box-sizing: border-box;
+ }
+ @-webkit-keyframes sdb06 {
+ 0% {
+   -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+   opacity: 0;
+ }
+ 50% {
+   opacity: 1;
+ }
+ 100% {
+   -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+   opacity: 0;
+ }
+ }
+ @keyframes sdb06 {
+ 0% {
+   transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+   opacity: 0;
+ }
+ 50% {
+   opacity: 1;
+ }
+ 100% {
+   transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+   opacity: 0;
+ }
+ }
+ 
+ .cem{
+ font-size:115px;
+ width: 65%;
+ margin: 0 auto;
+ text-align: center;
+ color: white;
+ }
+ .glad{
+ font-size:25px;
+width: 100%;
+ margin: 0 auto;
+ color: white;
+ }
+ 
+ html {
+ height: 100%;
+ }
+ 
+ body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ }
+ 
+ 
+ 
+ #about {
+ position: absolute;
+ top: 130%;
+ margin: 0 auto;
+ padding-top: 45%;
+ left: 50px;
+ 
+ }
+ #projects{
+ position: absolute;
+ top: 450%;
+ margin: 0 auto;
+ padding-top: 35%;
+ text-align: center;
+ left: 50px;
+
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ #contact{
+ position: absolute;
+ top: 880%;
+ margin: 0 auto;
+ left: 55px;
+ 
+ 
+ }
+                                        
+ footer{
+ position: absolute;
+ top: 335%;
+ margin: 0 auto;
+ width: 100%;
+ text-align: center;
+ }
+                                          
+ }
+ @media (min-width: 912px) {
+
+ header{
+     scale: 1;
+     font-size: 15px;
+     width: 820px;
+ }
+ 
+ .nav-link{
+     
+     padding-left: 0;
+     padding-right: 25px;
+ }
+ 
+     .demo a {
+         position: absolute;
+         bottom: 20px;
+         left: 50%;
+         z-index: 2;
+         display: inline-block;
+         -webkit-transform: translate(0, -50%);
+         transform: translate(0, -50%);
+         color: white;
+         font : normal 400 20px/1 'Josefin Sans', sans-serif;
+         letter-spacing: .1em;
+         text-decoration: none;
+         transition: opacity .3s;
+       }
+       .demo a:hover {
+         opacity: .5;
+       }
+       
+       
+       
+       #section06 a {
+         padding-top: 90px;
+       }
+       #section06 a span {
+         position: absolute;
+         top:250px;
+         left: 50%;
+         width: 24px;
+         height: 24px;
+         margin-left: -12px;
+         border-left: 1px solid white;
+         border-bottom: 1px solid white;
+         -webkit-transform: rotateZ(-45deg);
+         transform: rotateZ(-45deg);
+         -webkit-animation: sdb06 1.5s infinite;
+         animation: sdb06 1.5s infinite;
+         box-sizing: border-box;
+       }
+       @-webkit-keyframes sdb06 {
+         0% {
+           -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+           opacity: 0;
+         }
+         50% {
+           opacity: 1;
+         }
+         100% {
+           -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+           opacity: 0;
+         }
+       }
+       @keyframes sdb06 {
+         0% {
+           transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+           opacity: 0;
+         }
+         50% {
+           opacity: 1;
+         }
+         100% {
+           transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+           opacity: 0;
+         }
+       }
+     
+       .cem{
+         font-size:115px;
+         width: 65%;
+         margin: 0 auto;
+         text-align: center;
+         color: white;
+       }
+       .glad{
+         font-size:25px;
+        width: 100%;
+         margin: 0 auto;
+         color: white;
+       }
+     
+       html {
+         height: 100%;
+     }
+     
+     body {
+         margin: 0;
+         padding: 0;
+         height: 100%;
+     }
+     
+     
+     
+     #about {
+         position: absolute;
+         top: 150%;
+         margin: 0 auto;
+         padding-top: 45%;
+         left: 50px;
+        font-size: 25px;
+         
+     }
+     #projects{
+         position: absolute;
+         top: 495%;
+         margin: 0 auto;
+         padding-top: 35%;
+         text-align: center;
+         left: 50px;
+         font-size: 25px;
+         
+     }
+
+       #contact{
+         position: absolute;
+         top: 930%;
+         margin: 0 auto;
+         left: 55px;
+         font-size: 25px;
+       
+       }
+ 
+       footer{
+         position: absolute;
+         top: 320%;
+         margin: 0 auto;
+         width: 100%;
+         text-align: center;
+         font-size: 20px;
+       }
+   
+     }
+@media (min-width: 540px) {
+
+        header{
+            scale: 0.8;
+            font-size: 15px;
+           
+        }
+        
+        .nav-link{
+            
+            padding-left: 0;
+            
+        }
+        
+            .demo a {
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                z-index: 2;
+                display: inline-block;
+                -webkit-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                color: white;
+                font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                letter-spacing: .1em;
+                text-decoration: none;
+                transition: opacity .3s;
+              }
+              .demo a:hover {
+                opacity: .5;
+              }
+              
+              
+              
+              #section06 a {
+                padding-top: 90px;
+              }
+              #section06 a span {
+                position: absolute;
+                top:250px;
+                left: 50%;
+                width: 24px;
+                height: 24px;
+                margin-left: -12px;
+                border-left: 1px solid white;
+                border-bottom: 1px solid white;
+                -webkit-transform: rotateZ(-45deg);
+                transform: rotateZ(-45deg);
+                -webkit-animation: sdb06 1.5s infinite;
+                animation: sdb06 1.5s infinite;
+                box-sizing: border-box;
+              }
+              @-webkit-keyframes sdb06 {
+                0% {
+                  -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                  opacity: 0;
+                }
+                50% {
+                  opacity: 1;
+                }
+                100% {
+                  -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                  opacity: 0;
+                }
+              }
+              @keyframes sdb06 {
+                0% {
+                  transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                  opacity: 0;
+                }
+                50% {
+                  opacity: 1;
+                }
+                100% {
+                  transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                  opacity: 0;
+                }
+              }
+            
+              .cem{
+                font-size:115px;
+                width: 65%;
+                margin: 0 auto;
+                text-align: center;
+                color: white;
+              }
+              .glad{
+                font-size:25px;
+               width: 100%;
+                margin: 0 auto;
+                color: white;
+              }
+            
+              html {
+                height: 100%;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            
+            
+            
+            #about {
+                position: absolute;
+                top: 150%;
+                margin: 0 auto;
+                padding-top: 45%;
+                width: 480px;
+               font-size: 15px;
+                left: -50px;
+            }
+            #projects{
+                position: absolute;
+                top: 325%;
+                margin: 0 auto;
+                padding-top: 35%;
+                text-align: center;
+                
+                font-size: 20px;
+                
+            }
+       
+              #contact{
+                position: absolute;
+                top: 530%;
+                margin: 0 auto;
+                
+                font-size: 25px;
+              
+              }
+        
+              footer{
+                position: absolute;
+                top: 400%;
+                margin: 0 auto;
+                width: 100%;
+                text-align: center;
+                font-size: 12px;
+              }
+          
+            }   
+
+@media (min-width: 1024px) {
+
+                header{
+                    scale: 1;
+                    font-size: 15px;
+                    width: 820px;
+                }
+                
+                .nav-link{
+                    
+                    padding-left: 0;
+                    padding-right: 25px;
+                }
+                
+                    .demo a {
+                        position: absolute;
+                        bottom: 20px;
+                        left: 50%;
+                        z-index: 2;
+                        display: inline-block;
+                        -webkit-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                        color: white;
+                        font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                        letter-spacing: .1em;
+                        text-decoration: none;
+                        transition: opacity .3s;
+                      }
+                      .demo a:hover {
+                        opacity: .5;
+                      }
+                      
+                      
+                      
+                      #section06 a {
+                        padding-top: 90px;
+                      }
+                      #section06 a span {
+                        position: absolute;
+                        top:250px;
+                        left: 50%;
+                        width: 24px;
+                        height: 24px;
+                        margin-left: -12px;
+                        border-left: 1px solid white;
+                        border-bottom: 1px solid white;
+                        -webkit-transform: rotateZ(-45deg);
+                        transform: rotateZ(-45deg);
+                        -webkit-animation: sdb06 1.5s infinite;
+                        animation: sdb06 1.5s infinite;
+                        box-sizing: border-box;
+                      }
+                      @-webkit-keyframes sdb06 {
+                        0% {
+                          -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                          opacity: 0;
+                        }
+                        50% {
+                          opacity: 1;
+                        }
+                        100% {
+                          -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                          opacity: 0;
+                        }
+                      }
+                      @keyframes sdb06 {
+                        0% {
+                          transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                          opacity: 0;
+                        }
+                        50% {
+                          opacity: 1;
+                        }
+                        100% {
+                          transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                          opacity: 0;
+                        }
+                      }
+                    
+                      .cem{
+                        font-size:115px;
+                        width: 65%;
+                        margin: 0 auto;
+                        text-align: center;
+                        color: white;
+                      }
+                      .glad{
+                        font-size:25px;
+                       width: 100%;
+                        margin: 0 auto;
+                        color: white;
+                      }
+                    
+                      html {
+                        height: 100%;
+                    }
+                    
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        height: 100%;
+                    }
+                    
+                    
+                    
+                    #about {
+                        position: absolute;
+                        top: 150%;
+                        margin: 0 auto;
+                        padding-top: 10%;
+                        left: -50px;
+                       font-size: 25px;
+                       width: 900px;
+                        
+                    }
+                    #projects{
+                        position: absolute;
+                        top: 310%;
+                        margin: 0 auto;
+                        padding-top:13% ;
+                        text-align: center;
+                        left: -15px;
+                        font-size: 22px;
+                        
+                    }
+               
+                      #contact{
+                        position: absolute;
+                        top: 610%;
+                        margin: 0 auto;
+                        padding-top: 20%;
+                        left: 0px;
+                        
+                      
+                      }
+                
+                      footer{
+                        position: absolute;
+                        top: 460%;
+                        margin: 0 auto;
+                        width: 100%;
+                        text-align: center;
+                        
+                      }
+                  
+                    }
+
+
+ @media (min-width: 1280px) {
+                    header{
+                        scale: 1;
+                        font-size: 15px;
+                        width: 820px;
+                    }
+                    
+                    .nav-link{
+                        
+                        padding-left: 0;
+                        padding-right: 25px;
+                    }
+                    
+                        .demo a {
+                            position: absolute;
+                            bottom: 20px;
+                            left: 50%;
+                            z-index: 2;
+                            display: inline-block;
+                            -webkit-transform: translate(0, -50%);
+                            transform: translate(0, -50%);
+                            color: white;
+                            font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                            letter-spacing: .1em;
+                            text-decoration: none;
+                            transition: opacity .3s;
+                          }
+                          .demo a:hover {
+                            opacity: .5;
+                          }
+                          
+                          
+                          
+                          #section06 a {
+                            padding-top: 90px;
+                          }
+                          #section06 a span {
+                            position: absolute;
+                            top:250px;
+                            left: 50%;
+                            width: 24px;
+                            height: 24px;
+                            margin-left: -12px;
+                            border-left: 1px solid white;
+                            border-bottom: 1px solid white;
+                            -webkit-transform: rotateZ(-45deg);
+                            transform: rotateZ(-45deg);
+                            -webkit-animation: sdb06 1.5s infinite;
+                            animation: sdb06 1.5s infinite;
+                            box-sizing: border-box;
+                          }
+                          @-webkit-keyframes sdb06 {
+                            0% {
+                              -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                              opacity: 0;
+                            }
+                            50% {
+                              opacity: 1;
+                            }
+                            100% {
+                              -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                              opacity: 0;
+                            }
+                          }
+                          @keyframes sdb06 {
+                            0% {
+                              transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                              opacity: 0;
+                            }
+                            50% {
+                              opacity: 1;
+                            }
+                            100% {
+                              transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                              opacity: 0;
+                            }
+                          }
+                        
+                          .cem{
+                            font-size:115px;
+                            width: 65%;
+                            margin: 0 auto;
+                            text-align: center;
+                            color: white;
+                          }
+                          .glad{
+                            font-size:25px;
+                           width: 100%;
+                            margin: 0 auto;
+                            color: white;
+                          }
+                        
+                          html {
+                            height: 100%;
+                        }
+                        
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            height: 100%;
+                        }
+                        
+                        
+                        
+                        #about {
+                            position: absolute;
+                            top: 150%;
+                            margin: 0 auto;
+                            padding-top: 10%;
+                            left: -50px;
+                           font-size: 25px;
+                           width: 1000px;
+                            
+                        }
+                        #projects{
+                            position: absolute;
+                            top: 370%;
+                            margin: 0 auto;
+                            padding-top:13% ;
+                            text-align: center;
+                            left: -15px;
+                            font-size: 22px;
+                            
+                        }
+                   
+                          #contact{
+                            position: absolute;
+                            top: 610%;
+                            margin: 0 auto;
+                            padding-top: 20%;
+                            left: 0px;
+                            
+                          
+                          }
+                    
+                          footer{
+                            position: absolute;
+                            top: 360%;
+                            margin: 0 auto;
+                            width: 100%;
+                            text-align: center;
+                            
+                          }
+                      
+                        }
+ @media (min-width: 1400px){
+
+                            header{
+                                scale: 1;
+                                font-size: 15px;
+                                width: 820px;
+                            }
+                            
+                            .nav-link{
+                                
+                                padding-left: 0;
+                                padding-right: 25px;
+                            }
+                            
+                                .demo a {
+                                    position: absolute;
+                                    bottom: 20px;
+                                    left: 50%;
+                                    z-index: 2;
+                                    display: inline-block;
+                                    -webkit-transform: translate(0, -50%);
+                                    transform: translate(0, -50%);
+                                    color: white;
+                                    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                                    letter-spacing: .1em;
+                                    text-decoration: none;
+                                    transition: opacity .3s;
+                                  }
+                                  .demo a:hover {
+                                    opacity: .5;
+                                  }
+                                  
+                                  
+                                  
+                                  #section06 a {
+                                    padding-top: 90px;
+                                  }
+                                  #section06 a span {
+                                    position: absolute;
+                                    top:250px;
+                                    left: 50%;
+                                    width: 24px;
+                                    height: 24px;
+                                    margin-left: -12px;
+                                    border-left: 1px solid white;
+                                    border-bottom: 1px solid white;
+                                    -webkit-transform: rotateZ(-45deg);
+                                    transform: rotateZ(-45deg);
+                                    -webkit-animation: sdb06 1.5s infinite;
+                                    animation: sdb06 1.5s infinite;
+                                    box-sizing: border-box;
+                                  }
+                                  @-webkit-keyframes sdb06 {
+                                    0% {
+                                      -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                      opacity: 0;
+                                    }
+                                    50% {
+                                      opacity: 1;
+                                    }
+                                    100% {
+                                      -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                      opacity: 0;
+                                    }
+                                  }
+                                  @keyframes sdb06 {
+                                    0% {
+                                      transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                      opacity: 0;
+                                    }
+                                    50% {
+                                      opacity: 1;
+                                    }
+                                    100% {
+                                      transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                      opacity: 0;
+                                    }
+                                  }
+                                
+                                  .cem{
+                                    font-size:115px;
+                                    width: 65%;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                    color: white;
+                                  }
+                                  .glad{
+                                    font-size:25px;
+                                   width: 100%;
+                                    margin: 0 auto;
+                                    color: white;
+                                  }
+                                
+                                  html {
+                                    height: 100%;
+                                }
+                                
+                                body {
+                                    margin: 0;
+                                    padding: 0;
+                                    height: 100%;
+                                }
+                                
+                                
+                                
+                                #about {
+                                    position: absolute;
+                                    top: 240%;
+                                    margin: 0 auto;
+                                    padding-top: 40%;
+                                    left: -50px;
+                                   font-size: 25px;
+                                   width: 900px;
+                                    
+                                }
+                                #projects{
+                                    position: absolute;
+                                    top: 600%;
+                                    margin: 0 auto;
+                                    padding-top:35% ;
+                                    text-align: center;
+                                    left: -15px;
+                                    font-size: 22px;
+                                    
+                                }
+                           
+                                  #contact{
+                                    position: absolute;
+                                    top: 910%;
+                                    margin: 0 auto;
+                                    padding-top: 50%;
+                                    left: 0px;
+                                    
+                                  
+                                  }
+                            
+                                  footer{
+                                    position: absolute;
+                                    top: 340%;
+                                    margin: 0 auto;
+                                    width: 100%;
+                                    text-align: center;
+                                    
+                                  }
+                              
+                                }
+
+@media (min-width: 1280px) {
+                                    header{
+                                        scale: 1;
+                                        font-size: 15px;
+                                        width: 820px;
+                                    }
+                                    
+                                    .nav-link{
+                                        
+                                        padding-left: 0;
+                                        padding-right: 25px;
+                                    }
+                                    
+                                        .demo a {
+                                            position: absolute;
+                                            bottom: 20px;
+                                            left: 50%;
+                                            z-index: 2;
+                                            display: inline-block;
+                                            -webkit-transform: translate(0, -50%);
+                                            transform: translate(0, -50%);
+                                            color: white;
+                                            font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                                            letter-spacing: .1em;
+                                            text-decoration: none;
+                                            transition: opacity .3s;
+                                          }
+                                          .demo a:hover {
+                                            opacity: .5;
+                                          }
+                                          
+                                          
+                                          
+                                          #section06 a {
+                                            padding-top: 90px;
+                                          }
+                                          #section06 a span {
+                                            position: absolute;
+                                            top:250px;
+                                            left: 50%;
+                                            width: 24px;
+                                            height: 24px;
+                                            margin-left: -12px;
+                                            border-left: 1px solid white;
+                                            border-bottom: 1px solid white;
+                                            -webkit-transform: rotateZ(-45deg);
+                                            transform: rotateZ(-45deg);
+                                            -webkit-animation: sdb06 1.5s infinite;
+                                            animation: sdb06 1.5s infinite;
+                                            box-sizing: border-box;
+                                          }
+                                          @-webkit-keyframes sdb06 {
+                                            0% {
+                                              -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                              opacity: 0;
+                                            }
+                                            50% {
+                                              opacity: 1;
+                                            }
+                                            100% {
+                                              -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                              opacity: 0;
+                                            }
+                                          }
+                                          @keyframes sdb06 {
+                                            0% {
+                                              transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                              opacity: 0;
+                                            }
+                                            50% {
+                                              opacity: 1;
+                                            }
+                                            100% {
+                                              transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                              opacity: 0;
+                                            }
+                                          }
+                                        
+                                          .cem{
+                                            font-size:115px;
+                                            width: 65%;
+                                            margin: 0 auto;
+                                            text-align: center;
+                                            color: white;
+                                          }
+                                          .glad{
+                                            font-size:25px;
+                                           width: 100%;
+                                            margin: 0 auto;
+                                            color: white;
+                                          }
+                                        
+                                          html {
+                                            height: 100%;
+                                        }
+                                        
+                                        body {
+                                            margin: 0;
+                                            padding: 0;
+                                            height: 100%;
+                                        }
+                                        
+                                        
+                                        
+                                        #about {
+                                            position: absolute;
+                                            top: 170%;
+                                            margin: 0 auto;
+                                            padding-top: 30%;
+                                            left: -150px;
+                                           font-size: 25px;
+                                           width: 1300px;
+                                            
+                                        }
+                                        #projects{
+                                            position: absolute;
+                                            top: 375%;
+                                            margin: 0 auto;
+                                            padding-top:35% ;
+                                            text-align: center;
+                                            left: -15px;
+                                            font-size: 22px;
+                                            
+                                        }
+                                   
+                                          #contact{
+                                            position: absolute;
+                                            top: 629%;
+                                            margin: 0 auto;
+                                            padding-top: 30%;
+                                            left: 0px;
+                                            
+                                          
+                                          }
+                                    
+                                          footer{
+                                            position: absolute;
+                                            top: 335%;
+                                            margin: 0 auto;
+                                            width: 100%;
+                                            text-align: center;
+                                            
+                                          }
+                                      
+                                        }
+
+ @media (min-width: 1920px) {
+                                            header{
+                                                scale: 1;
+                                                font-size: 15px;
+                                                width: 820px;
+                                            }
+                                            
+                                            .nav-link{
+                                                
+                                                padding-left: 0;
+                                                padding-right: 25px;
+                                            }
+                                            
+                                                .demo a {
+                                                    position: absolute;
+                                                    bottom: 20px;
+                                                    left: 50%;
+                                                    z-index: 2;
+                                                    display: inline-block;
+                                                    -webkit-transform: translate(0, -50%);
+                                                    transform: translate(0, -50%);
+                                                    color: white;
+                                                    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+                                                    letter-spacing: .1em;
+                                                    text-decoration: none;
+                                                    transition: opacity .3s;
+                                                  }
+                                                  .demo a:hover {
+                                                    opacity: .5;
+                                                  }
+                                                  
+                                                  
+                                                  
+                                                  #section06 a {
+                                                    padding-top: 90px;
+                                                  }
+                                                  #section06 a span {
+                                                    position: absolute;
+                                                    top:250px;
+                                                    left: 50%;
+                                                    width: 24px;
+                                                    height: 24px;
+                                                    margin-left: -12px;
+                                                    border-left: 1px solid white;
+                                                    border-bottom: 1px solid white;
+                                                    -webkit-transform: rotateZ(-45deg);
+                                                    transform: rotateZ(-45deg);
+                                                    -webkit-animation: sdb06 1.5s infinite;
+                                                    animation: sdb06 1.5s infinite;
+                                                    box-sizing: border-box;
+                                                  }
+                                                  @-webkit-keyframes sdb06 {
+                                                    0% {
+                                                      -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                                      opacity: 0;
+                                                    }
+                                                    50% {
+                                                      opacity: 1;
+                                                    }
+                                                    100% {
+                                                      -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                                      opacity: 0;
+                                                    }
+                                                  }
+                                                  @keyframes sdb06 {
+                                                    0% {
+                                                      transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+                                                      opacity: 0;
+                                                    }
+                                                    50% {
+                                                      opacity: 1;
+                                                    }
+                                                    100% {
+                                                      transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+                                                      opacity: 0;
+                                                    }
+                                                  }
+                                                
+                                                  .cem{
+                                                    font-size:115px;
+                                                    width: 65%;
+                                                    margin: 0 auto;
+                                                    text-align: center;
+                                                    color: white;
+                                                  }
+                                                  .glad{
+                                                    font-size:25px;
+                                                   width: 100%;
+                                                    margin: 0 auto;
+                                                    color: white;
+                                                  }
+                                                
+                                                  html {
+                                                    height: 100%;
+                                                }
+                                                
+                                                body {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    height: 100%;
+                                                }
+                                                
+                                                
+                                                
+                                                #about {
+                                                    position: absolute;
+                                                    top: 170%;
+                                                    margin: 0 auto;
+                                                    padding-top: 40%;
+                                                    left: -150px;
+                                                   font-size: 25px;
+                                                   width: 1300px;
+                                                    
+                                                }
+                                                #projects{
+                                                    position: absolute;
+                                                    top: 500%;
+                                                    margin: 0 auto;
+                                                    padding-top:35% ;
+                                                    text-align: center;
+                                                    left: -15px;
+                                                    font-size: 22px;
+                                                    
+                                                }
+                                           
+                                                  #contact{
+                                                    position: absolute;
+                                                    top: 900%;
+                                                    margin: 0 auto;
+                                                    padding-top: 30%;
+                                                    left: 0px;
+                                                    
+                                                  
+                                                  }
+                                            
+                                                  footer{
+                                                    position: absolute;
+                                                    top: 335%;
+                                                    margin: 0 auto;
+                                                    width: 100%;
+                                                    text-align: center;
+                                                    
+                                                  }
+                                              
+                                                }
